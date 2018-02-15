@@ -1,2 +1,52 @@
-﻿body {
+﻿.container {
+    display: grid;
+}
+
+.container {
+    display:grid;
+    margin: 2 rem;
+    width: 600px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 75px 200px 50px 50px;
+    margin: 2rem auto;
+    width: 605px;
+}
+
+.grid-item-1 {
+    grid-column: 1 / span 5;
+    background-color: rgb(153, 204, 0);
+    text-indent: 15px;
+}
+
+.grid-item-2 {
+    grid-column: 1;
+    height: 255px;
+    background-color: rgb(153, 204, 0);
+    text-indent: 15px;
+}
+
+.grid-item-3 {
+    grid-column: 2 / span 4;
+    height: 200px;
+    background-color: rgb(153, 204, 0);
+    text-indent: 15px;
+}
+
+.grid-item-4 {
+    grid-column: 2 / span 4;
+    height: 50px;
+    background-color: rgb(153, 204, 0);
+    text-indent: 15px;
+}
+
+.grid-item-5 {
+    grid-column: 1 / span 5;
+    height: 50px;
+    background-color: rgb(153, 204, 0);
+    text-indent: 15px;
 }
